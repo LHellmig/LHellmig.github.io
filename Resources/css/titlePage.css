@@ -1,0 +1,237 @@
+html {
+    /* align-content:center; */
+    margin-left: 0px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, li{
+    font-family: inter, "inter", sans-serif; 
+}
+
+p {
+    font-family: roboto, serif;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    /* padding-right: 15px; */
+}
+
+#logo:hover {
+    background-color: #DA7B93;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+
+#navLogo {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: rgba(100, 100, 100, 0.0);
+}
+
+
+
+nav {
+    display: inline-flex;
+    width: auto;
+    border: none;
+    outline: none;
+    flex-wrap: wrap;
+}
+
+li {
+    display:inline-block;
+    /* border: solid 1px black; */
+    border-radius: 15px;
+    background-color: #1C3334;
+    color: white;
+    text-transform: capitalize;
+    font-size:larger;
+    font-weight: bold;
+    text-align: auto;
+    position: relative;
+    margin: 0px 5px;
+    padding:25px 5px;
+    width:100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7)
+}
+
+li:hover{
+    background-color:#DA7B93;
+    transition: background-color 1s;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    max-height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, #376E6F, #2F4454);
+    top: 0px;
+    z-index: 10;
+    border-bottom: solid 1px black;
+    padding: 5px;
+}
+
+#main{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: 79px;
+    border-bottom: solid 3px black;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+#titleContainer {
+    background:  linear-gradient(to right, rgba(46, 21, 27, 0.9), rgba(0,0,0, 0.0));
+    /* background-color: rgba(100, 100, 100, 0.7); */
+    top: 40px;
+    width: 80%;
+    position: absolute;
+}
+
+#title {
+    font-size: 60;
+    font-weight: bolder;
+    padding-left: 5%;
+    color: white;
+}
+
+#headline {
+    display: block;
+    background-color: rgba(47, 68, 84, 0.9);
+    padding: 16px 30px;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    right: 16px;
+    border: solid 1px black;
+    border-radius: 15px;
+    color: white;
+}
+
+content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    top: 79px;
+    padding-top: 5px;
+    border-bottom: solid 1px black;
+    background: linear-gradient(#5b4fff, orange) ;
+    min-height: 800px;
+    max-height: 2000px;
+}
+
+.artikel {
+    border: dotted 1px black;
+    border-radius: 10px;
+    width: 32%;
+    /* max-width: 33%; */
+    max-height: 700px;
+    margin: 5px;
+    flex-grow: 1;
+    padding: 3px;
+    overflow-y: hidden;
+    background-color: rgba(230,230,230, 0.7);
+}
+
+.articleHeader {
+    align-content:stretch;
+    height: 60px;
+    background-color: rgba(3, 67, 151, 0.3);
+    border-radius:10px;
+    padding-bottom: 20px;
+}
+
+.artikelTitle {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    bottom: 10px;
+    
+    font-weight:bold;
+    font-size:20px;
+}
+
+.articleContent {
+    padding: 0px 5px;
+    font-size:18px;
+}
+
+.articleImage {
+    height: 40%;
+    width: 40%;
+    box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7);
+    margin-right: 15px;
+    float: left;
+    border-radius: 5px;
+}
+
+footer {
+    background: radial-gradient( #376E6F, #2F4454);
+    position:relative;
+    height: 68px;
+    text-align: center;
+    width: 100%;
+    top: 79px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    margin: 8px 10px;
+    padding: 1px;
+    border-radius: 7px;
+    background-color: #1C3334;
+    border:#1C3334 solid 1px;
+    box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.7);
+    cursor: pointer;
+}
+
+.icon:hover{
+    background-color:#DA7B93;
+    border:#2E151B solid 1px;
+    transition: background-color 0.7s;
+}
+
+/* #leoTM{
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    margin: 0px;
+    font-family:serif;
+    font-size: 20;
+    font-weight:400;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.capitalisation {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coTitle {
+    font-size: 16px;
+    font-weight:lighter;
+}

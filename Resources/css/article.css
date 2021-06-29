@@ -1,0 +1,42 @@
+#articleMain{
+    justify-content: center;
+}
+
+
+
+#mainTitle {
+    padding: 0px 15px;
+    background-color: rgba(47, 68, 84, 0.9);
+    color: white;
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7);
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#articleImage {
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+#imgAndTitle {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+#textContainer {
+    margin: 25px 20%;
+    padding: 0px 3%;
+    height: fit-content;
+    border-radius: 15px;
+    background-color:rgba(230,230,230, 0.3) ;
+}
+
+#articleText {
+    font-size:larger;
+}
