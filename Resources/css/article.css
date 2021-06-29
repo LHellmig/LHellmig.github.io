@@ -46,9 +46,9 @@
     margin: 0px 20% 20px 20%;
     border-radius: 15px;
     /* font-weight: lighter; */
-    
     padding: 0px 15px;
     font-family: roboto, sans-serif;
+    height:3em;
 }
 
 #articleInfo h2 {
