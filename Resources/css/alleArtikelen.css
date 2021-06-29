@@ -1,12 +1,13 @@
 #headline {
-    top: 79px;
+    top: 30px;
     bottom: auto;
     /* position: absolute; */
     text-align: center;
+    border: none;
 }
 
 #displayArticleContainer {
-    margin: 200px 16px 50px 16px;
+    margin: 135px 16px 16px 16px;
     padding: 20px 30px 20px 20px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15px;
@@ -15,7 +16,8 @@
     column-gap: 10px;
     row-gap: 10px;
     grid-template-columns: 50% 50%;
-    
+    grid-auto-rows: 205px;
+    overflow: hidden;
 }
 
 .displayArticle {
@@ -24,19 +26,23 @@
     border-radius: 8px;
     margin-top: 0px;
     position: relative;
-    /* margin: 0px 12px; */
-    height: 220px;
+    height: 205px;
 }
 
 .displayArticleTitle {
     background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    display: absolute;
-    margin: none;
-    top: 0px;
+    margin:0px;
     padding: 5px 8px;
     color: white;
+    
+}
+
+.displayArticleContent {
+    position: relative;
+    top: -10px;
 }
 
 .displayArticleImage {
@@ -50,6 +56,7 @@
 
 .displayArticleText {
     font-size: 20px;
+    padding-right: 5px;
 }
 
 content {
