@@ -16,8 +16,7 @@
     column-gap: 10px;
     row-gap: 10px;
     grid-template-columns: 50% 50%;
-    grid-auto-rows: 205px;
-    overflow: hidden;
+    grid-auto-rows: 12.8125rem;
 }
 
 .displayArticle {
@@ -26,7 +25,8 @@
     border-radius: 8px;
     margin-top: 0px;
     position: relative;
-    height: 205px;
+    height: 12.8125rem;
+    
 }
 
 .displayArticleTitle {
@@ -37,6 +37,7 @@
     margin:0px;
     padding: 5px 8px;
     color: white;
+    font-size: 1.5rem !important;
 }
 
 .displayArticleContent {
