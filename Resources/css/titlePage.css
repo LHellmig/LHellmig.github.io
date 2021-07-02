@@ -31,12 +31,6 @@ p {
     transition: background-color 0.5s;
 }
 
-#navLogo {
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
-}
-
 nav {
     display: inline-flex;
     width: auto;
@@ -63,7 +57,7 @@ nav li {
     box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7);
 }
 
-li:hover{
+nav li:hover{
     background-color:#DA7B93;
     transition: background-color 1s;
 }

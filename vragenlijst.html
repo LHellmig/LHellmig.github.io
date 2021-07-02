@@ -56,9 +56,9 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li>Door hard werk</li>
-                        <li>Door ctrl+c & crtl+v</li>
-                        <li>Door yuri</li>
+                        <li><button id="correct" onClick = "correctAntwoord()">Door hard werk</button></li>
+                        <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
+                        <li><button id="fout" onClick = "foutAntwoord()">Door yuri</button></li>
                     </ul>
                 </div>
             </div>
@@ -71,15 +71,35 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li>Door hard werk</li>
-                        <li>Door ctrl+c & crtl+v</li>
-                        <li>Door yuri</li>
+                        <li><button id="correct" onClick = "correctAntwoord()">Door hard werk</button></li>
+                        <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
+                        <li><button class="fout">Door yuri</button></li>
                     </ul>
                 </div>
             </div>
-            
+            <div class="vraagContainer">
+                <div class="vraag">
+                    <h2>
+                        Hoe is deze website ontstaan?
+                    </h2>
+                </div>
+                <div class="antwoordContainer">
+                    <ul class="antwoorden">
+                        <li><button class="correct">Door hard werk</button></li>
+                        <li><button class="fout">Door ctrl+c & crtl+v</button></li>
+                        <li><button class="fout">Door yuri</button></li>
+                    </ul>
+                </div>
+            </div>
         </content>
-        
+        <script>
+            document.getElementById('correct').onclick = function changeContent() {
+                document.getElementById('correct').textContent = "Help Me";
+                document.getElementById('correct').style = "Color: red";
+            }
+
+
+        </script>
     <body>
 
     <footer>
