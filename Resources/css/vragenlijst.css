@@ -1,0 +1,25 @@
+.antwoorden li {
+    list-style: none;
+}
+
+.vraagContainer {
+    width: 70%;
+    margin: 20px 20%;
+    background-color: rgba(230,230,230, 0.3);
+    border-radius: 15px;
+    height:fit-content;
+}
+
+.vraag {
+    height: 30%;
+    position: relative;
+    margin-top: 0xp;
+    text-align: center;
+    background-color: rgba(230,230,230, 0.3);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.vraag h2 {
+    
+}
