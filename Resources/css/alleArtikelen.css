@@ -1,7 +1,6 @@
 #headline {
     top: 30px;
     bottom: auto;
-    /* position: absolute; */
     text-align: center;
     border: none;
 }
@@ -16,21 +15,20 @@
     column-gap: 10px;
     row-gap: 10px;
     grid-template-columns: 50% 50%;
-    grid-auto-rows: 12.8125rem;
+    grid-auto-rows: 205px;
 }
 
 .displayArticle {
-    background-color:rgba(26, 24, 24, 0.3);
+    background-color:rgba(230,230,230, 0.4);
     width: 100%;
     border-radius: 8px;
     margin-top: 0px;
     position: relative;
-    height: 12.8125rem;
-    
+    height: 205px;
 }
 
 .displayArticleTitle {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(27, 103, 107, 0.644);
     position: relative;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -60,5 +58,5 @@
 }
 
 content {
-    min-height: 1920px;
+    min-height: 1000px;
 }
