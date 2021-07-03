@@ -48,6 +48,7 @@
         </div>
             
         <content>
+            
             <div class="vraagContainer">
                 <div class="vraag">
                     <h2>
@@ -56,9 +57,9 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton" >Door hard werk</button></li>
-                        <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
-                        <li><button id="fout" onClick = "foutAntwoord()">Door yuri</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton correct">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door ctrl+c & crtl+v</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door yuri</button></li>
                     </ul>
                 </div>
             </div>
@@ -71,12 +72,13 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton">Door hard werk</button></li>
-                        <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
-                        <li><button class="fout">Door yuri</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton correct">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door ctrl+c & crtl+v</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door yuri</button></li>
                     </ul>
                 </div>
             </div>
+
             <div class="vraagContainer">
                 <div class="vraag">
                     <h2>
@@ -85,24 +87,31 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li><button class="correct">Door hard werk</button></li>
-                        <li><button class="fout">Door ctrl+c & crtl+v</button></li>
-                        <li><button class="fout">Door yuri</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton correct">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door ctrl+c & crtl+v</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door yuri</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="vraagContainer">
+                <div class="vraag">
+                    <h2>
+                        Hoe is deze website ontstaan?
+                    </h2>
+                </div>
+                <div class="antwoordContainer">
+                    <ul class="antwoorden">
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton correct">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door ctrl+c & crtl+v</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton fout">Door yuri</button></li>
                     </ul>
                 </div>
             </div>
         </content>
-        <script>
-            document.getElementById('correct').onclick = function changeContent() {
-                
-            }
 
-            function submitButtonStyle(_this) {
-//   _this.style.backgroundColor = "red";
-_this.textContent = "Help Me";
-_this.style = "Color: red";
-}
-        </script>
+        <script src="Resources/js/onClick.js"></script>
+
     <body>
 
     <footer>
