@@ -56,7 +56,7 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li><button id="correct" onClick = "correctAntwoord()">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton" >Door hard werk</button></li>
                         <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
                         <li><button id="fout" onClick = "foutAntwoord()">Door yuri</button></li>
                     </ul>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="antwoordContainer">
                     <ul class="antwoorden">
-                        <li><button id="correct" onClick = "correctAntwoord()">Door hard werk</button></li>
+                        <li><button onclick="submitButtonStyle(this)" type="submit" class="stylebutton">Door hard werk</button></li>
                         <li><button id="fout" onClick = "foutAntwoord()">Door ctrl+c & crtl+v</button></li>
                         <li><button class="fout">Door yuri</button></li>
                     </ul>
@@ -94,11 +94,14 @@
         </content>
         <script>
             document.getElementById('correct').onclick = function changeContent() {
-                document.getElementById('correct').textContent = "Help Me";
-                document.getElementById('correct').style = "Color: red";
+                
             }
 
-
+            function submitButtonStyle(_this) {
+//   _this.style.backgroundColor = "red";
+_this.textContent = "Help Me";
+_this.style = "Color: red";
+}
         </script>
     <body>
 
