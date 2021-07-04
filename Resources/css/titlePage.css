@@ -20,18 +20,17 @@
     max-height: 700px;
     margin: 5px;
     flex-grow: 1;
-    overflow-y: hidden;
+    overflow: hidden;
     background-color: rgba(230,230,230, 0.4);
 }
 
 .articleHeader {
-    align-content:stretch;
     height: 60px;
     background-color: rgba(27, 103, 107, 0.644);
-    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
 .artikelTitle {
@@ -58,15 +57,21 @@
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    
-    html {
-        min-height: 600px;
-    }
+@media only screen and (min-width: 320px) and (max-width:1024px) {
 
     .artikel {
-        width: 50%;
-        max-height: 400px;
+        width: 45%;
+        max-height: 600px;
     }
 
+    .articleHeader {
+        height:70px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+    .artikel {
+        width: 90%;
+    }
 }

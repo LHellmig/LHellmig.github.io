@@ -7,24 +7,23 @@
 
 #displayArticleContainer {
     margin: 135px 16px 16px 16px;
-    padding: 20px 30px 20px 20px;
+    padding: 20px 1% 20px 1%;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     width:98%;
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 205px;
+    grid-template-columns: 46.8vw 46.8vw;
+    grid-auto-rows: 220px;
+    overflow: hidden;
 }
 
 .displayArticle {
     background-color:rgba(230,230,230, 0.4);
-    width: 100%;
     border-radius: 8px;
-    margin-top: 0px;
     position: relative;
-    height: 205px;
+    overflow: hidden;
 }
 
 .displayArticleTitle {
@@ -44,8 +43,8 @@
 }
 
 .displayArticleImage {
-    height: 20%;
-    width: 20%;
+    width:210px;
+    height:118px;
     box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7);
     margin: 0px 15px 0px 5px;
     float: left;
@@ -54,9 +53,33 @@
 
 .displayArticleText {
     font-size: 1.25rem;
-    padding-right: 5px;
+    padding: 0px 5px;
 }
 
 content {
     min-height: 1000px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:1024px) {
+    #displayArticleContainer {
+        grid-template-columns: 100%;
+        grid-auto-rows: 205px;
+        column-gap: 0px;
+        margin: 135px 5px;
+    }
+
+    .displayArticleImage {
+        width: 210px;
+        height: 118px;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    #displayArticleContainer {
+        margin: 160px 0px 16px 0px;
+        padding: 10px 1% 10px 1%;
+        grid-template-columns: 100%;
+        grid-auto-rows: 400px;
+    }
 }
