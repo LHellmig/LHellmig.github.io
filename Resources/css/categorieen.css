@@ -24,7 +24,7 @@
     background-size: cover;
 }
 
-.categoryTitle {
+.category h2 {
     background-color: rgba(27, 103, 107, 0.9);
     position: relative;
     border-top-left-radius: 8px;

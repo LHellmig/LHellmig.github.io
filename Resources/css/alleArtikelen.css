@@ -26,7 +26,7 @@
     overflow: hidden;
 }
 
-.displayArticleTitle {
+.displayArticle h2 {
     background-color: rgba(27, 103, 107, 0.644);
     position: relative;
     border-top-left-radius: 8px;
@@ -42,7 +42,7 @@
     top: -10px;
 }
 
-.displayArticleImage {
+.displayArticleContent img {
     width:210px;
     height:118px;
     box-shadow: 5px 5px 5px rgba(33, 33, 33, 0.7);
@@ -51,7 +51,7 @@
     border-radius: 5px;
 }
 
-.displayArticleText {
+.displayArticleContent p {
     font-size: 1.25rem;
     padding: 0px 5px;
 }
