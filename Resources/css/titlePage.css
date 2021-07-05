@@ -23,7 +23,7 @@
     color: white;
 }
 
-.artikel {
+.article {
     border-radius: 10px;
     width: 32%;
     max-height: 700px;
@@ -68,7 +68,7 @@
 
 @media only screen and (min-width: 320px) and (max-width:1024px) {
 
-    .artikel {
+    .article {
         width: 45%;
         max-height: 600px;
     }
@@ -80,7 +80,7 @@
 
 @media only screen and (min-width: 320px) and (max-width:480px) {
 
-    .artikel {
+    .article {
         width: 90%;
     }
 }
