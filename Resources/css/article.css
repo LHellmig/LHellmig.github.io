@@ -55,4 +55,9 @@
         width: 90%;
         margin: 25px 5% 5px 5%;
     }
+
+    #articleInfo {
+        margin: 0px 10% 20px 10%
+    }
+    
 }
