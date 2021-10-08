@@ -1,7 +1,7 @@
-document.getElementById('correct').onclick = function changeContent() { 
-}
-document.getElementById('fout').onclick = function changeContent() { 
-}
+// document.getElementById('correct').onclick = function changeContent() { 
+// }
+// document.getElementById('fout').onclick = function changeContent() { 
+// }
 
 function submitButtonStyle(_this) {
 
